@@ -1,5 +1,6 @@
 #!/bin/bash
 
+wget https://raw.githubusercontent.com/ltsyydswow/gpt_shell/main/gpt
 
 sudo cp gpt /usr/local/bin/
 
@@ -7,4 +8,6 @@ sudo cp gpt /usr/local/bin/
 sudo chmod +x /usr/local/bin/gpt
 
 
-echo "gpt已经成功接入shell"
+echo "gpt马上成功接入shell现在请添加一下您的api key"
+
+vi /usr/local/bin/gpt
