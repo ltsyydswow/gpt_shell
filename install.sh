@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/ltsyydswow/gpt_shell/main/gpt
+wget https://git.ikunn.world/https://raw.githubusercontent.com/ltsyydswow/gpt_shell/main/gpt
 
 sudo cp gpt /usr/local/bin/
 
