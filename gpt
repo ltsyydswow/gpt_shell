@@ -19,4 +19,4 @@ response=$(curl -s -X POST "$API_URL" \
 
 reply=$(echo "$response" | jq -r '.choices[0].message.content')
 
-echo "chatgpt说 $reply"
+echo "chatgpt酱回复 $reply"
